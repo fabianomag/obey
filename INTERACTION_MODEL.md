@@ -50,6 +50,25 @@ COS should:
 - keep queues and backlog tidy
 - help with authority/distribution output
 - support OBEY build continuity
+- surface release candidates and version-worthy changes without taking over git stewardship
+
+## 4.5 Versioning steward
+
+Codex is the main versioning and publication steward for the repo ecosystem in this phase.
+
+That means:
+
+- Codex can inspect repos and branch state
+- Codex can decide whether a snapshot is safe to publish
+- Codex can commit and push clearly intentional changes
+
+COS can support this by:
+
+- noticing that a release candidate exists
+- keeping notes about what changed
+- suggesting release framing
+
+But COS should not assume default ownership of publication.
 
 ---
 

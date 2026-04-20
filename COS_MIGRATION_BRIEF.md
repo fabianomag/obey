@@ -145,6 +145,40 @@ Bad examples:
 
 ---
 
+## 7.5 Versioning and publishing boundary
+
+Versioning now has an explicit owner boundary.
+
+### Codex side
+
+Codex and its automation layer act as the primary versioning and publishing steward across the repos when release state is clear enough.
+
+This includes:
+
+- checking whether a repo state is publishable
+- noticing version-like changes
+- reviewing branch state
+- committing and pushing when the boundary is clearly safe
+
+### COS side
+
+COS should not assume that it owns git publication by default.
+
+COS should instead:
+
+- notice when something looks version-worthy
+- record release candidates
+- point out likely publishable changes
+- suggest version bumps or release notes when useful
+- coordinate with the current project state
+
+Interpretation:
+
+COS can surface that a release may be ready.
+Codex remains the main steward for actually deciding and executing repository publication unless explicitly delegated otherwise.
+
+---
+
 ## 8. What COS should read first
 
 Before taking action, COS should ground itself in:
