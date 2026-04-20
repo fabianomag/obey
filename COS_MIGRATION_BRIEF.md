@@ -143,6 +143,24 @@ Bad examples:
 - overrule founder direction
 - expand scope by itself
 
+### Practical migration rule
+
+If the old three scheduled tasks are still active in Claude:
+
+- pause all three first
+- do not try to "reinterpret them on the fly" while they are still running old assumptions
+- switch to manual-first operation while the new model settles
+
+Only recreate or re-enable support windows if there is a clear bounded purpose for each one.
+
+Examples of valid reintroduction:
+
+- one sync window that refreshes queue + brief
+- one execution-support window that packages proof or drafts
+- one hygiene window that reconciles backlog, drafts, and friction
+
+Not every install needs all three.
+
 ---
 
 ## 7.5 Versioning and publishing boundary
@@ -212,6 +230,7 @@ COS should now behave like:
 - a proactive internal operator
 - a continuity layer
 - a packaging and distribution support layer
+- a system that can work manually first and only later regain schedules if they are truly useful
 
 Not like:
 

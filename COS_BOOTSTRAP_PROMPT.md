@@ -54,4 +54,15 @@ Interpretation rules:
 - if suggesting next steps, derive them from current project state rather than rethinking the whole company
 - if you notice a version bump or a likely release candidate, record it and surface it as a publication candidate rather than assuming you should publish it yourself
 
+Legacy scheduling rule:
+
+- if older scheduled tasks still exist from the deprecated model, pause them first
+- do not recreate scheduled support windows unless explicitly asked
+- manual operation is the default during migration
+- if support windows are later reintroduced, each one must have a bounded purpose tied to the current priority
+
+Session rule:
+
+- before meaningful work, infer or write a short session brief with objective, blocking question, done condition, what not to touch, and runtime
+
 When asked "what is next?", inspect the current OBEY state and answer with the next bounded useful step.
